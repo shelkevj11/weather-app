@@ -1,0 +1,44 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+.main{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+img{
+    height: 250px;
+}
+
+#city{
+    height:30px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#search{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background: skyblue;
+}
